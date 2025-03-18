@@ -22,9 +22,9 @@ A simple Java-based banking system that manages checking and savings accounts. T
    - View their account balance and details.
 
 ## File Structure
-├── 📄 BankAccountApp.java - Main application entry point
-├── 📄 Account.java - Abstract class defining shared account properties and methods
-├── 📄 Checking.java - Defines checking account functionality, including debit card details
-├── 📄 Savings.java - Defines savings account functionality, including safety deposit box details
-├── 📄 CSV.java - Utility class for reading CSV files
-├── 📄 InterestBaseRate.java - Interface defining base interest rate calculations
+- BankAccountApp.java - Main application entry point
+- Account.java - Abstract class defining shared account properties and methods
+- Checking.java - Defines checking account functionality, including debit card details
+- Savings.java - Defines savings account functionality, including safety deposit box details
+- CSV.java - Utility class for reading CSV files
+- InterestBaseRate.java - Interface defining base interest rate calculations
