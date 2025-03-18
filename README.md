@@ -6,11 +6,13 @@ Features
 -  Interest Calculation: Applies interest rates dynamically based on account type.
 -  Transaction Handling: Supports deposits, withdrawals, and transfers.
 -  Randomized Security Features: Generates unique account numbers, debit card details, and safety deposit box credentials.
+
 How It Works
 -  The program reads account details (name, SSN, account type, and initial deposit) from a CSV file.
 -  It creates a new account (checking or savings) based on the input data.
 -  Each account is assigned a unique account number, interest rate, and security credentials.
 -  Users can perform transactions, view balances, and display account details.
+
 File Structure
 -  BankAccountApp.java - Main application entry point.
 -  Account.java - Abstract class defining shared account properties and methods.
